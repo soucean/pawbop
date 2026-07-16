@@ -4,42 +4,201 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PAW BOP — Privacy Policy</title>
+<meta name="description" content="Privacy Policy for PAW BOP: who we are, what stays on your device, what Google collects through the ads and analytics we embed, your rights, and how to opt out.">
 <style>
-  :root { --navy:#17264F; --blue:#3D6FD6; --cream:#F7F3E9; }
+  :root { --navy:#17264F; --blue:#3D6FD6; --cream:#F7F3E9; --muted:#8b8577; --line:#ddd6c4; }
   * { box-sizing:border-box; margin:0; padding:0; }
   body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
          background:var(--cream); color:var(--navy); line-height:1.7; }
   .wrap { max-width:640px; margin:0 auto; padding:48px 24px; }
   h1 { font-size:1.8rem; font-weight:800; margin-bottom:4px; }
-  .date { color:#8b8577; font-size:.9rem; margin-bottom:24px; }
-  h2 { font-size:1.05rem; font-weight:800; margin:20px 0 6px; }
+  .date { color:var(--muted); font-size:.9rem; margin-bottom:20px; }
+  .lede { margin-bottom:20px; }
+  h2 { font-size:1.05rem; font-weight:800; margin:28px 0 6px; }
+  p { margin-bottom:10px; }
   a { color:var(--blue); font-weight:700; }
-  footer { color:#8b8577; font-size:.85rem; margin-top:32px; }
+  ul { margin:0 0 10px 20px; }
+  li { margin-bottom:5px; }
+  code { font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace; font-size:.86em;
+         background:#fff; border:1px solid var(--line); border-radius:4px; padding:1px 5px; }
+  .card { background:#fff; border:3px solid var(--navy); border-radius:20px;
+          padding:20px 24px; margin:12px 0 20px; box-shadow:0 6px 0 rgba(23,38,79,.15); }
+  .card p:last-child, .card ul:last-child { margin-bottom:0; }
+  .tablewrap { overflow-x:auto; margin:12px 0 20px; }
+  table { width:100%; border-collapse:collapse; font-size:.88rem; background:#fff;
+          border:3px solid var(--navy); border-radius:14px; overflow:hidden; }
+  th, td { text-align:left; padding:10px 13px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:.72rem; text-transform:uppercase; letter-spacing:.08em;
+       color:var(--muted); font-weight:800; background:#faf7ef; }
+  tr:last-child td { border-bottom:0; }
+  td:first-child { font-weight:700; }
+  footer { color:var(--muted); font-size:.85rem; margin-top:36px;
+           border-top:1px solid var(--line); padding-top:16px; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>Privacy Policy — PAW BOP</h1>
-  <p class="date">Effective date: July 14, 2026</p>
+  <p class="date">Last updated and effective: July 16, 2026 · PAW BOP for iPhone, iPad, and Android</p>
 
-  <h2>We don't collect your data</h2>
-  <p>PAW BOP has no accounts, no sign-in, and no forms. The app itself does
-  not collect, store, or share any personal information. Game settings are
-  saved only on your device.</p>
+  <p class="lede">This policy explains who we are, what PAW BOP (“the app”) stores, what Google collects through the advertising and analytics software we embed, and the choices and rights you have.</p>
 
-  <h2>Third-party services</h2>
-  <p>The app shows ads via <strong>Google AdMob</strong> and uses
-  <strong>Google Firebase</strong> (Analytics &amp; Crashlytics) for anonymous
-  usage statistics and crash reports. These services may automatically
-  receive device identifiers (such as the advertising identifier) and usage
-  data, which may be used to show ads. See
-  <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>
-  and <a href="https://support.google.com/admob/answer/6128543">how Google
-  uses data in AdMob</a>.</p>
+  <h2>The short version</h2>
+  <div class="card">
+    <ul>
+      <li>We do not ask for your name, email, or any account. There is nothing to sign up for.</li>
+      <li>Your settings stay on your device. We never receive them.</li>
+      <li>The app does not use your location, contacts, camera, photos, or microphone.</li>
+      <li>We do not run a server of our own. Every piece of data that leaves your device goes to Google, not to us.</li>
+      <li>Google’s ads and analytics software does collect device identifiers and how the app is used. That is described in full below.</li>
+      <li>There are no in-app purchases, so we never handle payment information.</li>
+      <li>We have never sold your personal information for money, and we never will.</li>
+    </ul>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>PAW BOP is made and published by <strong>Ho Van Hai</strong>, an independent developer in <strong>Vietnam</strong>, trading as <strong>Soucean</strong>. Under the GDPR and equivalent laws, that individual is the <strong>data controller</strong> for this app.</p>
+  <p>We are a one-person operation and are not required to appoint a Data Protection Officer, so we have not appointed one. Privacy mail goes directly to the developer at the address at the bottom of this page.</p>
+
+  <h2>Stored on your device only</h2>
+  <p>PAW BOP has no accounts, no sign-in, and no text fields — there is nowhere in the app to type personal information, and we never ask for any. The app saves your setup locally, using your device’s standard app-preferences storage, so it survives closing the app. This never leaves your device and we cannot see it:</p>
+  <ul>
+    <li>Your sound setting (<code>soundOn</code>)</li>
+    <li>The speed and size you chose for each prey (<code>speed_fish</code>, <code>size_fish</code>, and the same for the mouse and the roach), plus older global values kept so upgrades don’t lose your setup (<code>speedMultiplier</code>, <code>sizeMultiplier</code>)</li>
+    <li>The background chosen for each prey (<code>bg_fish</code> and so on) and which prey the home screen last showed (<code>stageSpecies</code>)</li>
+    <li>Prey variants you switched off (<code>disabledVariants</code>)</li>
+    <li>Variants and backgrounds temporarily unlocked by watching a rewarded ad, and when each unlock expires (<code>variantUnlocks</code>)</li>
+    <li>Which version we last showed you an update notice for (<code>updatePromptedVersion</code>)</li>
+  </ul>
+  <p>Deleting the app erases all of it. Because there is no account, these settings cannot be recovered or moved to another device.</p>
+
+  <h2>What our partners collect</h2>
+  <p>The app embeds software from Google. When the app runs, these services collect data <strong>directly from your device to Google</strong>, under Google’s own privacy policy. We see only aggregated reports; we never receive a copy of the raw data, and there is no other company involved.</p>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th>Service</th><th>What it collects</th><th>Why</th></tr>
+    <tr>
+      <td>Google AdMob</td>
+      <td>Your advertising identifier — IDFA on iPhone and iPad, but only if you allow tracking; Advertising ID on Android — plus IP address, device model and settings, and how the banner, interstitial, and rewarded ads are interacted with. Apple’s SKAdNetwork and Android’s Privacy Sandbox also measure ad performance without identifying you.</td>
+      <td>To show ads and measure them. Ads are what keep the game free.</td>
+    </tr>
+    <tr>
+      <td>Firebase Analytics</td>
+      <td>Six in-app events, and nothing else: <code>screen_view</code>, <code>play_species</code>, <code>settings_open</code>, <code>game_exit</code> (which prey, and how many catches), <code>unlock_prompt</code>, <code>unlock_success</code>. Google attaches your device model, OS version, an approximate region derived from your IP address, and a randomly generated app instance identifier. On Android it also receives the Google Play install referrer.</td>
+      <td>To see which prey and settings actually get used</td>
+    </tr>
+    <tr>
+      <td>Firebase Crashlytics</td>
+      <td>Crash reports: what the app was doing when it stopped, device model, OS version, and a random Crashlytics installation identifier. Release builds only — crashes in our own test builds stay on our machines.</td>
+      <td>To find and fix crashes</td>
+    </tr>
+    <tr>
+      <td>Firebase Remote Config</td>
+      <td>Reads settings <strong>from Google’s servers</strong>, not from any server of ours. It is a one-way read: it sends the same random app instance identifier and nothing about how the app is used.</td>
+      <td>To adjust the game and flag broken versions without shipping an update</td>
+    </tr>
+  </table>
+  </div>
+
+  <p>None of these events contain your name, email, or anything you typed — the app never asks for those. We do not set a user ID and we record no user properties, so nothing Google receives through these events is tied to you as a person. Google’s practices are described in the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> and, for ads specifically, in <a href="https://support.google.com/admob/answer/6128543" rel="noopener">how Google uses data in AdMob</a>.</p>
+
+  <h2>Checking for updates</h2>
+  <p>On startup the app asks Firebase Remote Config for the minimum and latest published version numbers and compares them with the version installed on your device. If your copy is too old we show a notice, and it may offer to open your app store. Your version number is compared <em>on your device</em> — it is not reported to us.</p>
+
+  <h2>Why we are allowed to do this</h2>
+  <p>For anyone in the European Economic Area or the United Kingdom, the GDPR requires us to name a legal basis for each purpose. Ours are:</p>
+
+  <div class="tablewrap">
+  <table>
+    <tr><th>What</th><th>Purpose</th><th>Legal basis</th></tr>
+    <tr>
+      <td>Settings on your device</td>
+      <td>Remember your setup</td>
+      <td>Not processed by us at all — they never leave your device</td>
+    </tr>
+    <tr>
+      <td>Personalized ads and the advertising identifier</td>
+      <td>Fund a free game</td>
+      <td>Your <strong>consent</strong> — Art. 6(1)(a)</td>
+    </tr>
+    <tr>
+      <td>Analytics events</td>
+      <td>See what is actually used</td>
+      <td>Your <strong>consent</strong> — Art. 6(1)(a)</td>
+    </tr>
+    <tr>
+      <td>Non-personalized ads</td>
+      <td>Fund a free game when you decline consent</td>
+      <td><strong>Legitimate interests</strong> — Art. 6(1)(f)</td>
+    </tr>
+    <tr>
+      <td>Crash reports</td>
+      <td>Keep the app from breaking</td>
+      <td><strong>Legitimate interests</strong> — Art. 6(1)(f)</td>
+    </tr>
+    <tr>
+      <td>Remote Config and version check</td>
+      <td>Ship fixes, flag broken versions</td>
+      <td><strong>Legitimate interests</strong> — Art. 6(1)(f)</td>
+    </tr>
+  </table>
+  </div>
+
+  <p>Where we rely on legitimate interests, we have weighed them against your privacy: all of it is limited to keeping a free game working and none of it identifies you personally. You can object at any time — see <a href="#rights">Your rights</a>.</p>
+
+  <h2>Tracking and personalized ads</h2>
+  <p>Shortly after you first open the app on an iPhone or iPad, it shows Apple’s tracking prompt and asks permission to use your device’s advertising identifier (IDFA) for personalized ads. We ask once; iOS only allows the prompt a single time.</p>
+  <p>If you say no, you will still see ads — they will just be non-personalized. Saying no does not lock, limit, or slow down any part of the game, and your cat will not notice the difference.</p>
+  <p>You can change your mind at any time:</p>
+  <ul>
+    <li><strong>iPhone and iPad:</strong> Settings › Privacy &amp; Security › Tracking. The same screen lets you reset your advertising identifier, which breaks the link to past ad activity.</li>
+    <li><strong>Android:</strong> Settings › Google › Ads, where you can opt out of ads personalization or delete your Advertising ID entirely.</li>
+  </ul>
+
+  <h2>If you are in the European Economic Area or the UK</h2>
+  <p>Before any personalized ad is requested and before analytics collection begins, the app shows a consent form provided by Google’s User Messaging Platform, and asks whether you agree. Nothing personalized runs until you answer. You can reopen that form from the app’s settings and change or withdraw your answer at any time; withdrawing is as easy as giving consent, and costs you nothing in the game.</p>
+  <p>You also have the right to lodge a complaint with your national data protection authority. A directory of EEA authorities is published by the <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en" rel="noopener">European Data Protection Board</a>; in the UK, the authority is the <a href="https://ico.org.uk/" rel="noopener">Information Commissioner’s Office</a>. You are welcome to contact us first, but you are not obliged to.</p>
+
+  <h2>If you are in California</h2>
+  <p>We want to be blunt about this rather than hide behind wording. When you allow tracking, your advertising identifier goes to Google so it can personalize the ads you see. Under the CCPA as amended by the CPRA, that counts as <strong>“sharing” for cross-context behavioral advertising</strong>, and you have the right to opt out of it.</p>
+  <ul>
+    <li><strong>To opt out</strong>, turn off tracking as described above. That is our “Do Not Sell or Share My Personal Information” mechanism — there is nothing else to click, and we honor it in the app itself.</li>
+    <li><strong>We have never sold personal information for money</strong>, and we do not offer financial incentives for your data.</li>
+    <li><strong>We do not collect sensitive personal information</strong> as the CPRA defines it.</li>
+    <li><strong>We do not knowingly share the personal information of anyone under 16.</strong></li>
+    <li>You have the right to know, delete, correct, and to be free from retaliation for exercising any of these rights. Because we hold no account and nothing that identifies you, in practice there is nothing on our side to hand over or delete.</li>
+  </ul>
+
+  <h2 id="rights">Your rights</h2>
+  <p>Depending on where you live, you have some or all of the following rights over your personal data: to <strong>access</strong> it, to have it <strong>corrected</strong> or <strong>erased</strong>, to <strong>restrict</strong> or <strong>object to</strong> how it is used, to receive it in a <strong>portable</strong> form, and to <strong>withdraw consent</strong> you previously gave.</p>
+  <p>Here is the honest, practical answer about exercising them with us. We hold no account, no email address, and no identifiable records — so if you write to ask what we have about you, the answer will almost always be that we have nothing to look up, because there is no key to look you up by. That is by design, not evasion.</p>
+  <p>The data that does exist is held by Google, and Google is the only party that can act on it. Use the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> for that. Resetting or deleting your advertising identifier, as described above, severs the link between your device and past ad activity. Deleting the app erases everything held locally.</p>
+  <p>If you do write to us, we will reply within 30 days.</p>
+
+  <h2>Where your data goes</h2>
+  <p>We are based in Vietnam, and Google operates a global infrastructure, so data collected through the app is processed on Google servers outside your country — including in the United States. We do not transfer anything ourselves, because nothing is ever sent to us. For transfers out of the EEA and the UK, Google relies on the European Commission’s Standard Contractual Clauses and the frameworks described in its own privacy policy.</p>
+
+  <h2>If you are in Vietnam</h2>
+  <p>We are a Vietnamese controller, so Decree No. 13/2023/ND-CP on Personal Data Protection applies to us. The rights it grants you — to know, to give and withdraw consent, to access, to correct, to delete, to restrict and object, and to complain — are covered by the sections above, and the same contact address applies.</p>
+
+  <h2>Children</h2>
+  <p>PAW BOP is built for cats to play and for their owners to set up. It is intended for a general audience, it is not directed to children under 13, it is not published in a children’s category, and we do not knowingly collect personal information from children under 13. If you believe a child has provided such information, contact us and we will act on it.</p>
+
+  <h2>Security</h2>
+  <p>The strongest security measure we have is structural: we do not operate a server, hold no accounts, and store no personal data. There is no database of ours to breach. Everything the app sends travels over encrypted connections to Google, whose security is described in their privacy policy. Data on your device is protected by your device’s own operating system and passcode.</p>
+
+  <h2>Data retention</h2>
+  <p>We do not operate a server that stores your data, so we retain nothing. Your settings live on your device for as long as the app is installed and are erased when you delete it. Data collected by Google is retained under Google’s own schedules, described in their privacy policy.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes we will update this page and the date at the top. Meaningful changes will be noted in the app’s release notes. Where a change requires your consent under applicable law, we will ask for it before the change takes effect.</p>
 
   <h2>Contact</h2>
-  <p>Questions about this policy:
-  <a href="mailto:devhaiho@gmail.com">devhaiho@gmail.com</a></p>
+  <div class="card">
+    <p>Any privacy question — write to Ho Van Hai at
+    <a href="mailto:soucean.work@gmail.com">soucean.work@gmail.com</a></p>
+  </div>
 
   <footer>© 2026 Soucean · <a href="index.html">Support</a></footer>
 </div>
